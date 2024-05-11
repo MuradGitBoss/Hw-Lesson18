@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 900px;
+    min-height: 600px;
+    float: left;
+    background-color: #E4EFFE;
+}
+
+.header{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    background-color: #0168FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.center{
+    width: 900px;
+    min-height: 380px;
+    float: left;
+}
+
+.nav{
+    width: 240px;
+    height: 380px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #69A1FF;
+    color: white;
+    /* margin-right: 10px; */
+}
+
+.mincent{
+    width: 400px;
+    height: 380px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #A4A6AB;
+}
+
+.side{
+    width: 240px;
+    height: 380px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #69A1FF;
+    color: white;
+    /* margin-left: 10px; */
+}
+
+.footer{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    background-color: #0168FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav{
+        width: 100%;
+        height: 250px;
+    }
+
+    .side{
+        width: 100%;
+        height: 250px;
+    }
+
+    .mincent{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav{
+        width: 33.33%;
+    }
+
+    .side{
+        width: 33.33%;
+    }
+
+    .mincent{
+        width: 33.33%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav{
+        width: 240px;
+    }
+
+    .side{
+        width: 240px;
+    }
+
+    .mincent{
+        width: 400px;
+    }
+}
+
